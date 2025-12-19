@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints
+
+# Env files
+.env
+# Printer/exported data
+*.PRN
+*.prn
+*.TXT
+*.bat
+*.txt
+*.$$$
+
+# Link-time optimization / LTO build artifacts
+*.lto
+lto/

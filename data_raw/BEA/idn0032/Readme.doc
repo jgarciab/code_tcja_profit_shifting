@@ -1,0 +1,94 @@
+
+                                                     Page 1 of 2
+
+                      U.S. DIRECT INVESTMENT ABROAD
+                   Operations of U.S. Parent Companies
+                      and Their Foreign Affiliates
+
+                          Revised 1986 Estimates
+
+     1. Source of Data: U.S. Department of Commerce, Bureau of
+        Economic Analysis (BEA), International Investment Division.
+
+     2. Release Date: June, 1989.
+
+     3. BEA Contacts:
+
+        a) For diskette assistance, please contact Marie C. Gott,     
+           International Investment Division, Data Retrieval          
+           and Analysis Branch, Bureau of Economic Analysis (BE-50),  
+           U.S. Department of Commerce, Washington, D.C. 20230, or    
+           call (202) 523-0568.
+
+        b) For other assistance, please contact David Galler,
+           International Investment Division, Direct Investment Abroad
+           Branch, Bureau of Economic Analysis (BE-50), U.S.
+           Department of Commerce, Washington, D.C.  20230, or call
+           (202) 523-0612.
+
+     4. Diskette Information:
+
+        a) This diskette contains two files: this README.DOC file and
+           the EXTRACT.EXE file.  The DOS read-only attribute has been
+           set to "on" for both files, and you should make a back-up
+           copy of the diskette to insure against accidental loss of
+           the original data.
+
+        b) The EXTRACT.EXE file is a PKZIP-compressed archive of the
+           text and of Tables 1A through 58 from the printed
+           publication with the same name, with a built-in self
+           extracting utility.
+
+           1) The text is contained in the archived ASCII file called
+              TEXT.DOC.  Here you will find the Introductory Notes
+              regarding data coverage and methodology, the List of
+              Tables, General Notes to Tables, Footnotes, and
+              information on ordering other related publications and
+              diskettes on United States investment abroad.
+              There are 16 pages of text.
+
+           2) The table files, named TABLEx.PRN (where x = table number),
+              are in fixed format ASCII; the line width is 160
+              characters.  If you intend to use these tables with a
+              spreadsheet program, please refer to your spreadsheet
+              manual regarding the methods required to import and
+              manipulate ASCII files.                                            Page 2 of 2
+
+        c) File Extraction Routines: All of the tables and text
+           documentation in the archive require about 1,116K bytes of 
+           disk storage space in their uncompressed form.  In their
+           compressed form, they occupy about 280K bytes on this      
+           diskette.  The commands required to extract table or text
+           files are listed below.  To execute these commands, the
+           floppy drive that contains this diskette must be the
+           current drive.
+
+           1) To view a listing of all the file names in the archive
+              on your screen, the command is:
+                         EXTRACT -T|MORE
+
+           2) To send a listing of all the file names in the archive
+              to your printer, the command is:                   
+                         EXTRACT -T>PRN
+
+           3) To extract the uncompressed version of ONE particular   
+              file, for example the TEXT.DOC file, to the same drive  
+              you are currently on, the command is:                   
+                         EXTRACT TEXT.DOC
+
+           4) To extract the uncompressed version of ONE particular
+              file, for example the TEXT.DOC file, to a different     
+              drive, the command is:
+                         EXTRACT TEXT.DOC d:{\directory}
+                         (where d = desired drive and
+                          {directory is optional})
+
+           5) To extract the uncompressed version of ALL files to a
+              different drive, the command is:
+                         EXTRACT *.* d:{\directory}
+                         (where d = desired drive and
+                          {directory is optional})
+              (This is the most efficient routine for users with hard
+              disks.)
+
+

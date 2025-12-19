@@ -1,0 +1,66 @@
+                                                     Page 1 of 2
+
+                     U.S. DIRECT INVESTMENT ABROAD
+          Operations of U.S. Parent Companies and their Foreign Afiliates
+
+                         Revised 1995 Estimates
+
+     1. Source of Data: U.S. Department of Commerce, Bureau of
+        Economic Analysis (BEA), International Investment Division.
+
+     2. Release Date: October, 1998.
+
+     3. BEA Contacts:
+
+        a) For diskette assistance, please contact Arnold Gilbert,         
+           International Investment Division, Data Retrieval and
+           Analysis Branch, Bureau of Economic Analysis (BE-50),
+           U.S. Department of Commerce, Washington, D.C. 20230, or
+           call (202) 606-9836 or Email to arnold.gilbert@bea.doc.gov.
+
+        b) For other assistance, please contact Ray Mataloni,
+           International Investment Division, Research Branch,        
+           Bureau of Economic Analysis (BE-50), U.S. Department of    
+           Commerce, Washington, D.C.  20230, or call (202) 606-9867
+	   or Email to raymond.mataloni@bea.doc.gov.
+
+     4. Diskette Information:
+
+        a) This diskette contains two files: this README.DOC file and
+           the DIA_FO95.EXE file.  The DOS read-only attribute has been
+           set to "on" for both files, and you should make a back-up
+           copy of the diskette to insure against accidental loss of
+           the original data.
+
+        b) The DIA_FO95.EXE file is a WINZIP-compressed archive of the
+           text and tables from the printed publication with the same
+           name, with a built-in self extracting utility.
+
+           1) The text is contained in the archived ASCII file called
+              TEXT.DOC.  Here you will find the Introductory Notes
+              regarding data coverage and methodology, the List of
+              Tables, General Notes to Tables, Footnotes, and
+              information on ordering other related publications and
+              diskettes on U.S. direct investment abroad.  There are
+              16 pages of text.
+
+           2) The table files, named TABxxx.TXT (where xxx = table number),
+              are in fixed format ASCII.  If you intend to use these tables with a
+              spreadsheet program, please refer to your spreadsheet
+              manual regarding the methods required to import and
+              manipulate ASCII files.
+
+                                            Page 2 of 2
+
+        c) File Extraction Routines: All of the tables and text documentation
+           in the archive require about 1,470K bytes of disk storage space in 
+           their uncompressed form.  In their compressed form, they occupy about 
+           390K bytes on this diskette.  The commands required to extract table 
+           or text files are listed below.  
+
+           In Windows, double-click on the icon for  dia_fo95.exe  in the diskette drive.
+           In DOS, get into the diskette drive, type  dia_fo95  and press Enter.
+           In either case, a window will appear, prompting you to choose a folder in which
+           to unzip (decompress) the files.  When you have done this, click the  Unzip
+           button to start decompression.
+

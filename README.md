@@ -1,5 +1,4 @@
-Replication package for: "Did the Tax Cuts and Jobs Act Reduce Profit Shifting by US Multinational Companies?" (IMFE-D-24-00174R2)
-Authors: Javier Garcia-Bernardo, Petr Janský, Gabriel Zucman
+Replication package for: "Did the Tax Cuts and Jobs Act Reduce Profit Shifting by US Multinational Companies?" (IMFE-D-24-00174R2). Authors: Javier Garcia-Bernardo, Petr Janský, Gabriel Zucman
 
 
 Quick summary
@@ -7,7 +6,8 @@ Quick summary
 
 Repository layout (key files)
  - `1a_processing_raw_data.ipynb` : Load raw sources, clean them, and build unified datasets used by the analysis.
-	 - Note: Compustat data is not included in this replication package; see Data notes below.
+	 - Note: Compustat data is not included in this replication package.
+	 - Custom scripts to clean and harmonize BEA data, CBCR and other datasets.
 	 - Output: cleaned, merged data placed under `data/`.
 
  - `1b_fix_double_counting.ipynb` : Apply fixes to remove double-counting issues across sources and produce the cleaned dataset used by analysis notebooks.
@@ -36,4 +36,21 @@ Contact and citation
  - If you use this replication package, please cite the paper: "Did the Tax Cuts and Jobs Act Reduce Profit Shifting by US Multinational Companies?" (IMFE-D-24-00174R2) 
  - For questions, open an issue in the repository or contact the author(s) listed in the manuscript.
 
+## Key datasets produced (metadata)
+
+Below are the main output datasets created by the processing notebooks. These are the files other researchers will find most useful for analysis or reuse.
+
+- `data/combined_dataset_stateless_False_all_False.tsv` 
+	- Description: Unified country × year panel combining profits (`pi`), tax paid (`txc`), employment (`emp`), assets, and effective tax rate (`etr`) across multiple data sources (CBCR, BEA, Compustat, etc.).
+	- Format: TSV (tab-separated values)
+	- Key columns: `iso` (country code), `year`, `source`, `type`, `pi`, `txc`, `emp`, `etr`, `pi_emp`, plus source-specific columns
+	- Produced by: `1a_processing_raw_data.ipynb` → `1b_fix_double_counting.ipynb`
+	- Notes: There are several variants (stateless handling, 'all' vs 'positive_groups').
+
+
+- `results/elasticities.xlsx` and `results/figures/*.pdf`
+	- Description: Regression summaries (elasticities) and figure outputs produced by plotting helpers in `f_helper.py` (e.g., `plots()` and `plot_elas()`).
+	- Format: Excel for summary tables, PDF for figures
+	- Produced by: `replication_package/2_figures_paper.ipynb` and `f_helper.plots()`
+	- Notes: `elasticities.xlsx` contains model statistics and commonly used formatted output for tables in the manuscript.
 
