@@ -1,4 +1,6 @@
-Replication package for: "Did the Tax Cuts and Jobs Act Reduce Profit Shifting by US Multinational Companies?" (IMFE-D-24-00174R2). Authors: Javier Garcia-Bernardo, Petr Janský, Gabriel Zucman
+## Replication package for: "Did the Tax Cuts and Jobs Act Reduce Profit Shifting by US Multinational Companies?" (IMFE-D-24-00174R2). Authors: Javier Garcia-Bernardo, Petr Janský, Gabriel Zucman
+
+![DOI: 10.5281/zenodo.17988842](https://zenodo.org/badge/DOI/10.5281/zenodo.17988842.svg)
 
 
 Quick summary
